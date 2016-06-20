@@ -153,17 +153,7 @@ hr.small {
 }
 
 
-.superAwesomeOverlayText {
-  display: none;
-  color: white;
-  width: 457px;
-  height: 304px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #000000;
-  opacity: .8;
+.descriptionText {
   font-size: 18px;
 }
 
@@ -228,6 +218,9 @@ hr.small {
 
 .img-portfolio:hover {
     opacity: 0.8;
+}
+.descriptionText:hover {
+  opacity: 1;
 }
 .overlayTextBox:hover .superAwesomeOverlayText{
   display: block;
